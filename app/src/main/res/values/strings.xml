@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Todo List</string>
+    <string name="input_hint_1">\@JohnDoe</string>
+    <string name="input_hint_2">****** </string>
+    <string name="create_acc">Create Account</string>
+    <string name="login">Login</string>
+    <string name="f_name">John</string>
+    <string name="l_name">Doe</string>
+    <string name="signup">Sign up</string>
+    <string name="already_have_acc">Already have an account?</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="todo_title">Your todo list</string>
+    <string name="add_new_todo_item_button">Add new todo item button</string>
+    <string name="manage_your_account_button">Manage your account button</string>
+    <string name="pass_invalid">Password is invalid.</string>
+    <string name="uid_invalid">Username is invalid,</string>
+    <string name="lname_invalid">Last name is invalid.</string>
+    <string name="fname_invalid">First name is invalid,</string>
+    <string name="add_todo_item">Add Todo Item</string>
+    <string name="todo_item_desc">Todo item description</string>
+    <string name="todo_item_title">Todo item title</string>
+    <string name="item_completed">Item completed</string>
+    <string name="UPDATE_TODO_ITEM">UPDATE TODO ITEM</string>
+</resources>

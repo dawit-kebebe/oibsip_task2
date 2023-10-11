@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:minWidth="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        android:background="@drawable/fieldset_border"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Settings"
+            android:textColor="@color/rich_black"
+            android:layout_marginBottom="20dp"
+            android:textAllCaps="true"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/account_owner"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/rich_black"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:background="@drawable/fieldset_border"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/edit_acc_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Account"
+            android:background="@color/white"
+            android:textColor="@color/rich_black"
+            android:layout_marginBottom="10dp"/>
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/settings_btn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Settings"-->
+<!--            android:background="@color/white"-->
+<!--            android:textColor="@color/rich_black"-->
+<!--            android:layout_marginBottom="10dp"/>-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	app:cardBackgroundColor="@color/white"
+	app:cardCornerRadius="1dp"
+	app:cardElevation="0.5dp"
+	app:cardMaxElevation="1dp"
+	app:cardPreventCornerOverlap="true"
+	app:cardUseCompatPadding="true">
+ 
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="20dp">
+
+<!--		<TextView-->
+<!--			android:layout_width="wrap_content"-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:textAppearance="?android:attr/textAppearanceMedium"-->
+<!--			android:visibility="invisible"-->
+<!--			android:id="@+id/todo_id"-->
+<!--			app:layout_constraintBottom_toTopOf="@id/todo_detail"-->
+<!--			app:layout_constraintStart_toStartOf="parent"-->
+<!--			app:layout_constraintTop_toTopOf="parent"-->
+<!--			app:layout_constraintEnd_toStartOf="@id/todo_title"/>-->
+<!--		<TextView-->
+<!--			android:layout_width="wrap_content"-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:textAppearance="?android:attr/textAppearanceMedium"-->
+<!--			android:visibility="invisible"-->
+<!--			android:id="@+id/todo_owner"-->
+<!--			app:layout_constraintBottom_toTopOf="@id/todo_detail"-->
+<!--			app:layout_constraintStart_toStartOf="parent"-->
+<!--			app:layout_constraintTop_toTopOf="parent"-->
+<!--			app:layout_constraintEnd_toStartOf="@id/todo_title"/>-->
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="aaaa"
+			android:id="@+id/todo_title"
+			app:layout_constraintBottom_toTopOf="@id/todo_detail"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			android:maxLines="1"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="bbbbb"
+			android:id="@+id/todo_detail"
+			android:layout_alignParentStart="true"
+			android:layout_alignTop="@id/todo_title"
+			app:layout_constraintTop_toBottomOf="@id/todo_title"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			android:maxLines="1"/>
+
+<!--		<Button-->
+<!--            style="?android:attr/buttonBarButtonStyle"-->
+<!--			android:layout_height="30dp"-->
+<!--			android:layout_width="30dp"-->
+<!--			android:text="..."-->
+<!--			android:textAppearance="?android:attr/textAppearanceLarge"-->
+<!--			android:id="@+id/remove_btn"-->
+<!--			android:textColor="@color/accentColor"-->
+<!--			android:background="@color/white"-->
+<!--			android:textAlignment="center"-->
+<!--			app:layout_constraintEnd_toEndOf="parent"-->
+<!--			app:layout_constraintTop_toTopOf="parent"-->
+<!--			app:layout_constraintBottom_toBottomOf="parent"/>-->
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
